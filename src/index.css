@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.doneTask span{
+  text-decoration: line-through;
+  color: red;
+}
+
+.mrgt2 {
+  margin-top: 2rem !important;
+}
